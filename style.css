@@ -3,6 +3,13 @@ body {
     padding: 0;
 }
 
+.heading{
+    margin-left: 230px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(65, 28, 28);
+}
+
 .container {
     display: inline-block;
     text-align: center;
@@ -24,11 +31,25 @@ table {
 }
 
 input {
-    width: 335px;
+    width: 310px;
     height: 35px;
     margin: 10px;
     border: none;
+    padding-right: 20px;
+    text-align: end;
+    font-size: 22px;
+    color: rgb(88, 55, 55);
     box-shadow: 0 3px 2px rgb(154, 160, 165);
+}
+
+input:hover{
+    box-shadow: 0 3px 2px rgb(104, 108, 110);
+
+}
+
+input::placeholder{
+    font-size: 18px;
+    color: rgb(156, 154, 154);
 }
 
 button {
@@ -43,10 +64,17 @@ button {
     color: grey;
 }
 
+button:hover{
+    color: black;
+    font-size: 20px;
+    box-shadow: 0 3px 2px rgb(104, 108, 110);
+
+}
+
 .last {
-    background-color: rgb(240, 245, 169);
+    background-color: rgb(243, 241, 144);
 }
 
 .pink {
-    background-color: rgb(243, 159, 167);
+    background-color: rgb(243, 161, 170);
 }
